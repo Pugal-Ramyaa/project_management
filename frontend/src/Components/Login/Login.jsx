@@ -74,7 +74,7 @@ const Login = ({handleLogin}) => {
           <br/>
           <a href=' '>Forgot password?</a>
           <br /><br />
-          <Link to "/Dashboard"> Continue without Login </Link>
+          <Link to="/Dashboard"> Continue without Login </Link>
 
           {error && <span className='error'>{error}</span>}<br/>
           {successMessage && <p className='success'>{successMessage}</p>}
