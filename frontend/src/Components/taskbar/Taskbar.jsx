@@ -61,7 +61,7 @@ const Taskbar = ({ userEmail }) => {
                         </Link>
                     </li>
                 </div>
-                <div className='navbar-li'>
+{/*                 <div className='navbar-li'>
                 <li className="navbar-link">
                     <Link to="/ReactCalendar">
                     <span class='taskbar-icon'>
@@ -71,7 +71,7 @@ const Taskbar = ({ userEmail }) => {
                         Calendar
                     </span></Link>
                 </li>
-                </div>
+                </div> */}
                 <div className='navbar-li'>
                 <li className="navbar-link">
                 <Link to="/ToDoList">
